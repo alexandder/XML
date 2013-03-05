@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style2.css"?>
+<lista>
+<osoba plec="m"> AAAAAb</osoba>
+<osoba plec="k"> CCCC</osoba>
+<osoba plec="m">BBBb</osoba>
+<osoba plec="k">FFSJH</osoba>
+<osoba plec="k">Pfsafa</osoba>
+</lista>
+
+[plec=k] {
+display: block;
+font-size: 20px;
+color: #721ef5;
+}
+
+[plec=m] {
+display: block;
+font-size: 30px;
+color: #11fe25;
+}
