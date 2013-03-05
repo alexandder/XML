@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style5.css"?>
+
+<lista>
+  <pierwszy>pierwszy</pierwszy>
+  <drugi>drugiR</drugi>
+  <drugi>drugiG</drugi>
+  <pierwszy>pierwszy</pierwszy>
+  <pierwszy>pierwszy</pierwszy>
+  <drugi>drugiR</drugi>
+  <pierwszy>pierwszy</pierwszy>
+  <drugi>drugiR</drugi>
+  <drugi>drugiG</drugi>
+</lista>
+
+pierwszy+drugi {
+    display:block;
+    color: red;
+    font-size: 20px;
+}
+
+drugi {
+    display:block;
+    color: green;
+    font-size: 50px;
+}
+
+pierwszy {
+    display: block;
+    color: #ae257e;
+}
+
+pierwszy:hover {
+    color: #8a511f;
+    text-decoration: underline;
+}
