@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style1.css"?>
+<lista>
+  <emeryci>
+    <osoba>EEE1</osoba>
+    <osoba>EEE2</osoba>
+  </emeryci>
+  <pracownicy>
+    <osoba>PPP1</osoba>
+    <osoba>PPP2</osoba>
+  </pracownicy>
+  <studenci>
+    <osoba>SSS1</osoba>
+    <osoba>SSSS2</osoba>
+  </studenci>
+</lista>
+
+
+emeryci>osoba {
+    display:block;
+    color: #ab21f8;
+    font-family: courier;
+    font-size: 25px;
+}
+
+pracownicy>osoba {
+    display:block;
+    color: #33ae08;
+    font-family: courier;
+    font-size: 10px;
+}
+
+studenci>osoba {
+    display:block;
+    color: #aa1987;
+    font-family: courier;
+    font-size: 40px;
+}
