@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="pr1style.css"?>
+<project>
+  <table>
+    <title>Serie A</title>
+    <header>
+      <columns>
+        <nr id="col">Place</nr>
+        <name id="col">Club</name>
+        <points id="col">Points</points>
+        <wins id="col">Wins</wins>
+        <draws id="col">Draws</draws>
+        <losses id="col">Losses</losses>
+        <for id="col">Goals for</for>
+        <ag id="col">Goals against</ag>
+      </columns>
+    </header>
+    <teams>
+      <team>
+        <name id="row">Juventus FC</name>
+        <points id="row">62</points>
+        <wins id="row">19</wins>
+        <draws id="row">5</draws>
+        <losses id="row">4</losses>
+        <for id="row">55</for>
+        <ag id="row">18</ag>
+      </team>
+      <team>
+        <name id="row">Napoli</name>
+        <points id="row">53</points>
+        <wins id="row">15</wins>
+        <draws id="row">8</draws>
+        <losses id="row">5</losses>
+        <for id="row">47</for>
+        <ag id="row">24</ag>
+      </team>
+      <team>
+        <name id="row">AC Milan</name>
+        <points id="row">51</points>
+        <wins id="row">15</wins>
+        <draws id="row">6</draws>
+        <losses id="row">7</losses>
+        <for id="row">50</for>
+        <ag id="row">32</ag>
+      </team>
+      <team>
+        <name id="row">Fiorentina</name>
+        <points id="row">48</points>
+        <wins id="row">14</wins>
+        <draws id="row">6</draws>
+        <losses id="row">8</losses>
+        <for id="row">50</for>
+        <ag id="row">33</ag>
+      </team>
+      <team>
+        <name id="row">Inter</name>
+        <points id="row">47</points>
+        <wins id="row">14</wins>
+        <draws id="row">5</draws>
+        <losses id="row">9</losses>
+        <for id="row">44</for>
+        <ag id="row">37</ag>
+      </team>
+      <team>
+        <name id="row">SS Lazio</name>
+        <points id="row">47</points>
+        <wins id="row">14</wins>
+        <draws id="row">5</draws>
+        <losses id="row">9</losses>
+        <for id="row">37</for>
+        <ag id="row">32</ag>
+      </team>
+      <team>
+        <name id="row">AS Roma</name>
+        <points id="row">44</points>
+        <wins id="row">13</wins>
+        <draws id="row">5</draws>
+        <losses id="row">10</losses>
+        <for id="row">58</for>
+        <ag id="row">49</ag>
+      </team>
+      <team>
+        <name id="row">Catania Calcio</name>
+        <points id="row">42</points>
+        <wins id="row">12</wins>
+        <draws id="row">6</draws>
+        <losses id="row">10</losses>
+        <for id="row">36</for>
+        <ag id="row">35</ag>
+      </team>
+      <team>
+        <name id="row">Udinese Calcio</name>
+        <points id="row">53</points>
+        <wins id="row">10</wins>
+        <draws id="row">11</draws>
+        <losses id="row">7</losses>
+        <for id="row">37</for>
+        <ag id="row">35</ag>
+      </team>
+      <team>
+        <name id="row">Bologna</name>
+        <points id="row">35</points>
+        <wins id="row">10</wins>
+        <draws id="row">5</draws>
+        <losses id="row">13</losses>
+        <for id="row">39</for>
+        <ag id="row">36</ag>
+      </team>
+      <team>
+        <name id="row">Sampdoria</name>
+        <points id="row">35</points>
+        <wins id="row">10</wins>
+        <draws id="row">6</draws>
+        <losses id="row">12</losses>
+        <for id="row">35</for>
+        <ag id="row">33</ag>
+      </team>
+      <team>
+        <name id="row">AC Parma</name>
+        <points id="row">35</points>
+        <wins id="row">9</wins>
+        <draws id="row">8</draws>
+        <losses id="row">11</losses>
+        <for id="row">36</for>
+        <ag id="row">37</ag>
+      </team>
+      <team>
+        <name id="row">Cagliari</name>
+        <points id="row">34</points>
+        <wins id="row">9</wins>
+        <draws id="row">7</draws>
+        <losses id="row">12</losses>
+        <for id="row">35</for>
+        <ag id="row">48</ag>
+      </team>
+      <team>
+        <name id="row">Atalanta</name>
+        <points id="row">33</points>
+        <wins id="row">10</wins>
+        <draws id="row">5</draws>
+        <losses id="row">12</losses>
+        <for id="row">28</for>
+        <ag id="row">39</ag>
+      </team>
+      <team>
+        <name id="row">Torino</name>
+        <points id="row">32</points>
+        <wins id="row">7</wins>
+        <draws id="row">12</draws>
+        <losses id="row">9</losses>
+        <for id="row">33</for>
+        <ag id="row">36</ag>
+      </team>
+      <team>
+        <name id="row">Chievo Verona</name>
+        <points id="row">32</points>
+        <wins id="row">9</wins>
+        <draws id="row">5</draws>
+        <losses id="row">14</losses>
+        <for id="row">29</for>
+        <ag id="row">44</ag>
+      </team>
+      <team>
+        <name id="row">Genoa</name>
+        <points id="row">26</points>
+        <wins id="row">6</wins>
+        <draws id="row">8</draws>
+        <losses id="row">14</losses>
+        <for id="row">27</for>
+        <ag id="row">42</ag>
+      </team>
+      <team>
+        <name id="row">Siena</name>
+        <points id="row">24</points>
+        <wins id="row">8</wins>
+        <draws id="row">6</draws>
+        <losses id="row">14</losses>
+        <for id="row">29</for>
+        <ag id="row">40</ag>
+      </team>
+      <team>
+        <name id="row">Pescara</name>
+        <points id="row">21</points>
+        <wins id="row">6</wins>
+        <draws id="row">3</draws>
+        <losses id="row">19</losses>
+        <for id="row">21</for>
+        <ag id="row">56</ag>
+      </team>
+      <team>
+        <name id="row">Palermo</name>
+        <points id="row">21</points>
+        <wins id="row">3</wins>
+        <draws id="row">12</draws>
+        <losses id="row">13</losses>
+        <for id="row">23</for>
+        <ag id="row">41</ag>
+      </team>
+    </teams>
+  </table>
+</project>
