@@ -1,0 +1,194 @@
+project {
+    display: block;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+table {
+    display: table;
+    border: solid 5px #161614;
+    border-radius: 10px;
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+title {
+    display: table-caption;
+    font-family: 'Courier New';
+    font-size: 60px;
+    color: rgba(39, 0, 202, 1.00);
+    text-align: center;
+}
+
+    title:hover {
+        text-decoration: underline;
+    }
+
+header {
+    display: table-header-group;
+}
+
+
+teams {
+    display: table-row-group;
+    counter-reset: nr;
+}
+
+team, columns {
+    display: table-row;
+}
+
+
+[id=col], [id=row] {
+    display: table-cell;
+    border: thin solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+[id=col] {
+    font-size: 35px;
+    font-family: Georgia;
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #383935;
+}
+
+[id=row] {
+    width: 130px;
+    height: 80px;
+    font-size: 30px;
+}
+
+team {
+    background-color: #a49e5d;
+    counter-increment: nr;
+    font-size: 50px;
+    text-align:center;
+    font-family: Latha;
+
+}
+
+    team:before {
+        content: counter(nr);
+    }
+    
+    team > name {
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #383935;
+        background-color: #ffffff;
+        padding-top: 15px;
+    }
+
+        team name:hover {
+            font-weight: bolder;
+            font-size: 35px;
+            color: #000000;
+        }
+
+    team wins, for {
+        color: #1b5504;
+    }
+
+    team losses, ag {
+        color: #f00;
+    }
+
+    team draws {
+        color: #f8dd04;
+    }
+
+team:nth-child(1), team:nth-child(2), team:nth-child(3) {
+    background-color: rgba(26, 62, 203, 0.86);
+}
+
+team:nth-child(1) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/juventus-0.gif);
+
+}
+
+team:nth-child(2) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/napoli.gif);
+}
+
+team:nth-child(3) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/milan.gif);
+}
+
+team:nth-child(4), team:nth-child(5) {
+    background-color: #831c00;
+}
+
+team:nth-child(4) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/fiorentina-0.gif);
+}
+
+team:nth-child(5) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/inter-0.gif);
+}
+
+team:nth-child(6) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/lazio-0.gif);
+}
+
+team:nth-child(7) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/roma-0.gif);
+}
+
+team:nth-child(8) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/catania-0.gif);
+}
+
+team:nth-child(9) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/udinese-0.gif);
+}
+
+team:nth-child(10) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/bologna.gif);
+}
+
+team:nth-child(11) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/sampdoria-0.gif);
+}
+
+team:nth-child(12) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/parma-0.gif);
+}
+
+team:nth-child(13) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/cagliari-0.gif);
+}
+
+team:nth-child(14) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/atalanta-0.gif);
+}
+
+team:nth-child(15) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/torino-0.gif);
+}
+
+team:nth-child(16) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/chievo.gif);
+}
+
+team:nth-child(17) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/genoa-0.gif);
+}
+
+team:nth-child(18), team:nth-child(19), team:nth-child(20) {
+    background-color: #ff4d4d;
+}
+
+team:nth-child(18) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/siena-0.gif);
+}
+
+team:nth-child(19) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/pescara.gif);
+}
+
+team:nth-child(20) name {
+    background-image: url(http://www.seriea.pl/luba/dane/pliki/bank_zdj/palermo-0.gif);
+}
