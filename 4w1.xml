@@ -1,0 +1,13 @@
+?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE uczelnia [
+<!ELEMENT uczelnia (nazwa, rektor, profil)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT rektor (#PCDATA)>
+<!ELEMENT profil (#PCDATA)>
+]>
+
+<uczelnia>
+  <nazwa>PW</nazwa>
+  <rektor>A M </rektor>
+  <profil>W U T </profil>
+</uczelnia>
