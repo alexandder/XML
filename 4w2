@@ -1,0 +1,9 @@
+<!DOCTYPE rysunek [
+<!ELEMENT rysunek EMPTY>
+<!ATTLIST rysunek identyfikator ID #IMPLIED
+file CDATA #IMPLIED
+type (jpeg|gif) #IMPLIED>
+]>
+ 
+ 
+<rysunek identyfikator="zbior5" file="rys3.gif" type="gif"/>
