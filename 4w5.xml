@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+  <order nr="1">
+    <d_adress data="2013-03-20">
+      <name>AAA</name>
+      <street>BB</street>
+      <postal_code>84-230</postal_code>
+      <town>RR</town>
+      <country>Poland</country>
+    </d_adress>
+    <f_adress>
+      <e-mail>aaa@o2.pl</e-mail>
+    </f_adress>
+    <products>
+      <product></product>
+    </products>
+  </order>
+</data>
