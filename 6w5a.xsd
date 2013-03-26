@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="adres">
+ <xsd:complexType>
+  <xsd:sequence>
+  <xsd:element name="ulica" type="xsd:string" />
+	<xsd:element name="miasto" type="xsd:string" />
+	<xsd:choice>
+	 <xsd:element name="stan" type="xsd:string" />
+	 <xsd:element name="wojewodztwo" type="xsd:string" />	
+	</xsd:choice>
+	<xsd:element name="kod" type="xsd:integer" />			
+  </xsd:sequence>
+ </xsd:complexType>				     
+</xsd:element>
+</xsd:schema>
