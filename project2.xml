@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE NBA [
+
+<!ENTITY % pc "#PCDATA">
+<!ENTITY % drugi SYSTEM "prdtd2.dtd">
+<!ENTITY wc "Western Conferecne">
+<!ENTITY ec "Eastern Conferecne">
+<!ELEMENT NBA (Conference, Conference, (Team)+)>
+<!ELEMENT Conference (Name, NumberOfTeams, PreviousWinner)>
+<!ELEMENT Name %pc;> 
+<!ELEMENT NumberOfTeams (%pc;) >
+<!ELEMENT PreviousWinner (%pc;)>
+<!ELEMENT Team (Name, Points, Players)>
+<!ELEMENT Points (%pc;)>
+<!ELEMENT Players (Player*)>
+%drugi;
+]>
+
+<NBA>
+
+  <Conference reg="EC">
+    <Name>&wc;</Name>
+    <NumberOfTeams>15</NumberOfTeams>
+    <PreviousWinner>Chicago Bulls</PreviousWinner>
+  </Conference>
+
+  <Conference reg="WC">
+    <Name>&ec;</Name>
+    <NumberOfTeams>15</NumberOfTeams>
+    <PreviousWinner>San Antonio Spurs</PreviousWinner>
+  </Conference>
+
+  <Team treg="WC">
+    <Name>Los Angeles Lakers</Name>
+    <Points>0.519</Points>
+    <Players>
+      <Player position='C'>
+  <Name>Dwight</Name>
+	<LastName>Howard</LastName>
+      </Player>
+      <Player position='G'>
+	<Name>Steve</Name>
+	<LastName>Nash</LastName>
+      </Player>
+      <Player position='G'>
+	<Name>Kobe</Name>
+	<LastName>Bryant</LastName>
+      </Player>
+    </Players>
+  </Team>
+
+  <Team treg="WC">
+    <Name>Oklahoma City Thunder</Name>
+    <Points>0.727</Points>
+    <Players>
+      <Player position='F'>
+	<Name>Kevin</Name>
+	<LastName>Durant</LastName>
+      </Player>
+      <Player position='F'>
+	<Name>Serge</Name>
+	<LastName>Ibaka</LastName>
+      </Player>
+      <Player position='G'>
+	<Name>Russell</Name>
+	<LastName>Westbrook</LastName>
+      </Player>
+    </Players>
+  </Team>
+
+  <Team treg="EC">
+    <Name>Boston Celtics</Name>
+    <Points>0.519</Points>
+    <Players>
+      <Player position='F'>
+	<Name>Kevin</Name>
+	<LastName>Garnett</LastName>
+      </Player>
+      <Player position='G'>
+	<Name>Rajon</Name>
+	<LastName>Rondon</LastName>
+	<GP>38</GP>
+      </Player>
+    </Players>
+  </Team>
+
+  <Team treg="EC">
+    <Name>New York Knicks</Name>
+    <Points>0.658</Points>
+    <Players>
+      <Player position='F'>
+	<Name>Carmelo</Name>
+	<LastName>Anthony</LastName>
+	<GP>63</GP>
+      </Player>
+      <Player position='F'>
+	<Name>Tyson</Name>
+	<LastName>Chandler</LastName>
+      </Player>
+    </Players>
+  </Team>
+
+  <Team treg="WC">
+    <Name>Atlanta Hawks</Name>
+    <Points>0.538</Points>
+    <Players>
+      <Player position='F'>
+	<Name>Josh</Name>
+	<LastName>Smith</LastName>
+      </Player>
+      <Player position='G'>
+	<Name>Devin</Name>
+	<LastName>Harris</LastName>
+      </Player>
+    </Players>
+  </Team>
+
+  <Team treg="EC">
+    <Name>Los Angeles Clippers</Name>
+    <Points>0.662</Points>
+    <Players>
+      <Player position='F'>
+	<Name>Blake</Name>
+	<LastName>Griffin</LastName>
+      </Player>
+      <Player position='G'>
+	<Name>Chris</Name>
+	<LastName>Paul</LastName>
+      </Player>
+    </Players>
+  </Team>
+  
+</NBA>
