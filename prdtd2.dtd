@@ -1,0 +1,6 @@
+<!ELEMENT Player (Name, LastName, GP?)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT GP (#PCDATA)>
+<!ATTLIST Conference reg ID #REQUIRED>
+<!ATTLIST Team treg IDREF #IMPLIED>
+<!ATTLIST Player position (C|F|G) #REQUIRED>
