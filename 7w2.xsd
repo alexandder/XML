@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/7w2" xmlns:tns="http://www.example.org/7w2" elementFormDefault="qualified">
+
+  <xsd:simpleType name="mozliweSkoki">
+		<xsd:restriction base="xsd:positiveInteger">
+			<xsd:maxInclusive value="130"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="listaSkokow">
+		<xsd:list itemType="mozliweSkoki" />
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="typWyniki">
+		<xsd:restriction base="listaSkokow">
+			<xsd:maxLength value="4"
+		</xsd:restriction>
+	</xsd:simpleType>
+</schema>
