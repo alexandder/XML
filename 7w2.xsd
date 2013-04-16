@@ -13,7 +13,7 @@
 	
 	<xsd:simpleType name="typWyniki">
 		<xsd:restriction base="listaSkokow">
-			<xsd:maxLength value="4"
+			<xsd:maxLength value="4"></xsd:maxLength>
 		</xsd:restriction>
 	</xsd:simpleType>
 </schema>
