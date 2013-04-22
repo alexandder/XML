@@ -1,0 +1,113 @@
+xml version="1.0" encoding="UTF-8"?>
+
+<MLB xmlns:i="http://www.przyklad.pl/inc">
+  <club country="US" state="Massachusests">
+		<i:name>Boston Red Sox</i:name>
+		<gamesWon>12</gamesWon>
+		<gamesLost>6</gamesLost>
+		<points>0.667</points>
+		<league>American League</league>
+		<players>
+			<player>
+				<name>David</name>
+				<lastName>Ortiz</lastName>
+				<age>38</age>
+				<nationality>DR</nationality>
+				<position>DH</position>
+			</player>
+			<player>
+				<name>Shane</name>
+				<lastName>Victorino</lastName>
+				<age>33</age>
+				<nationality>US</nationality>
+				<position>RF</position>
+			</player>
+		</players>
+	</club >
+	<club country="US" state="Massachusests">
+		<i:name>Atlanta Braves</i:name>
+		<gamesWon>13</gamesWon>
+		<gamesLost>5</gamesLost>
+		<points>0.722</points>
+		<league>National League</league>
+		<players>
+			<player>
+				<name>Justin</name>
+				<lastName>Upton</lastName>
+				<age>26</age>
+				<nationality>US</nationality>
+				<position>LF</position>
+			</player>
+			<player>
+				<name>Jason</name>
+				<lastName>Heyward</lastName>
+				<age>24</age>
+				<nationality>US</nationality>
+				<position>RF</position>
+			</player>
+		</players>
+	</club>
+	<club country="US" state="Massachusests">
+		<i:name>New York Yankees</i:name>
+		<gamesWon>10</gamesWon>
+		<gamesLost>7</gamesLost>
+		<points>0.588</points>
+		<league>American League</league>
+		<players>
+			<player>
+				<name>Lyle</name>
+				<lastName>Overbay</lastName>
+				<age>36</age>
+				<nationality>US</nationality>
+				<position>1B</position>
+			</player>
+		</players>
+	</club>
+	
+	<club country="US" state="Massachusests">
+		<i:name>Texas Rangers</i:name>
+		<gamesWon>12</gamesWon>
+		<gamesLost>6</gamesLost>
+		<points>0.667</points>
+		<league>American League</league>
+		<players>
+			<player>
+				<name>Nelson</name>
+				<lastName>Cruz</lastName>
+				<age>33</age>
+				<nationality>DR</nationality>
+				<position>RF</position>
+			</player>
+			<player>
+				<name>Anthony</name>
+				<lastName>Pierzynski</lastName>
+				<age>37</age>
+				<nationality>US</nationality>
+				<position>C</position>
+			</player>
+		</players>
+	</club>
+	<club country="US" state="Massachusests">
+		<i:name>Cincinnati Reds</i:name>
+		<gamesWon>11</gamesWon>
+		<gamesLost>8</gamesLost>
+		<points>0.579</points>
+		<league>National League</league>
+		<players>
+			<player>
+				<name>Todd</name>
+				<lastName>Frazier</lastName>
+				<age>27</age>
+				<nationality>US</nationality>
+				<position>3B</position>
+			</player>
+			<player>
+				<name>Brandon</name>
+				<lastName>Phillips</lastName>
+				<age>32</age>
+				<nationality>US</nationality>
+				<position>2B</position>
+			</player>
+		</players>
+	</club>
+</MLB>
