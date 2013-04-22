@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  		xmlns:i="http://www.przyklad.pl/inc">
+
+
+<xsd:import schemaLocation="pr32.xsd" namespace="http://www.przyklad.pl/inc"/>
+
+<xsd:simpleType name="string">
+	<xsd:restriction base="xsd:string"></xsd:restriction>
+</xsd:simpleType>
+	
+<xsd:simpleType name="int">
+	<xsd:restriction base="xsd:nonNegativeInteger">
+		<xsd:maxInclusive value="120"></xsd:maxInclusive>
+	</xsd:restriction>
+</xsd:simpleType>	
+	
+<xsd:simpleType name="pts">
+	<xsd:restriction base="xsd:decimal">
+		<xsd:minInclusive value="0"></xsd:minInclusive>
+		<xsd:maxInclusive value="1"></xsd:maxInclusive>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="natType">
+	<xsd:restriction base="string">
+		<xsd:pattern value="[A-Z][A-Z]"></xsd:pattern>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="posType">
+	<xsd:restriction base="string">
+		<xsd:enumeration value="DH"></xsd:enumeration>
+		<xsd:enumeration value="SS"></xsd:enumeration>
+		<xsd:enumeration value="1B"></xsd:enumeration>
+		<xsd:enumeration value="2B"></xsd:enumeration>
+		<xsd:enumeration value="3B"></xsd:enumeration>
+		<xsd:enumeration value="LF"></xsd:enumeration>
+		<xsd:enumeration value="RF"></xsd:enumeration>
+		<xsd:enumeration value="CF"></xsd:enumeration>
+		<xsd:enumeration value="C"></xsd:enumeration>
+		<xsd:enumeration value="P"></xsd:enumeration>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<xsd:complexType name="playerType">
+	<xsd:all>
+		<xsd:element name="name" type="string"></xsd:element>
+		<xsd:element name="lastName" type="string"></xsd:element>
+		<xsd:element name="age" type="int"></xsd:element>
+		<xsd:element name="nationality" type="natType"></xsd:element>
+		<xsd:element name="position" type="posType"></xsd:element>
+	</xsd:all>	
+</xsd:complexType>
+
+<xsd:simpleType name="leagueType">
+	<xsd:restriction base="string">
+		<xsd:enumeration value="National League"></xsd:enumeration>
+		<xsd:enumeration value="American League"></xsd:enumeration>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<xsd:complexType name="plType">
+	<xsd:sequence>
+		<xsd:element name="player" type="playerType" minOccurs="1" maxOccurs="30" />
+	</xsd:sequence>
+</xsd:complexType>
+
+	
+<xsd:complexType name="clubType">
+	<xsd:sequence>
+		<xsd:element ref="i:name"></xsd:element>
+		<xsd:element name="gamesWon" type="int"></xsd:element>
+		<xsd:element name="gamesLost" type="int"></xsd:element>
+		<xsd:element name="points" type="pts"></xsd:element>
+		<xsd:element name="league" type="leagueType"></xsd:element>
+		<xsd:element name="players" type="plType"></xsd:element>
+	</xsd:sequence>
+	<xsd:attribute name="country" type="string" fixed="US"/>
+	<xsd:attribute name="state" type="string"/>
+</xsd:complexType>
+	
+<xsd:complexType name="MLBType">
+	<xsd:sequence>
+		<xsd:element name="club" type="clubType" minOccurs="1" maxOccurs="30"></xsd:element>
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:element name="MLB" type="MLBType"/>
+</xsd:schema>
